@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto', 'Arial';
+}
+body{
+    margin: 0;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    margin: 15px 34px;
+    
+}
+.barra-pesquisa input{
+    width: 404px;
+    height: 40px;
+    border: 1px solid #cccccc;
+
+}
+.barra-pesquisa img{
+    width: 30px;
+    position: sticky;
+}
+
+section{
+    padding: 24px;
+    width: 218px;
+    height: 968px;
+    background-color:  #FFFFFF;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section li {
+    display: flex;
+    padding-top: 22px;
+    list-style-type: none;
+}
+section a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-videos{
+    background: #F9F9F9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3 1fr);
+    gap: 50px 50px;
+    margin-top: 50px;
+
+}
